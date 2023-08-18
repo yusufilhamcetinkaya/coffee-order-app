@@ -17,21 +17,21 @@ The main purpose of this project is to showcase how to develop a well-structured
 
 Here's the directory structure of the project:
 src/
-├── application/
-│ ├── CoffeeApp.java
-│ ├── CoffeeMenu.java
-│ ├── CoffeeType.java
-│ ├── Order.java
-│ ├── Recipe.java
-│ └── RecipeItem.java
-├── domain/
-│ ├── exceptions/
-│ │ └── InvalidCoffeeTypeException.java
-│ └── model/
-│ └── Coffee.java
-└── service/
-├── CoffeeService.java
-└── CoffeeServiceImpl.java
+  application/
+      CoffeeApp.java
+      CoffeeMenu.java
+      CoffeeType.java
+      Order.java
+      Recipe.java
+      RecipeItem.java
+  domain/
+    exceptions/
+      InvalidCoffeeTypeException.java
+    model/
+      Coffee.java
+  service/
+      CoffeeService.java
+      CoffeeServiceImpl.java
 
 In this structure:
 - `application` contains the application entry point and user interface related code.
