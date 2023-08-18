@@ -27,9 +27,9 @@ Here's the directory structure of the project:
  - domain/
   - exceptions/
    - InvalidCoffeeTypeException.java
-  -  model/
-   - Coffee.java
- - service/
+ -  Model/
+  - Coffee.java
+ -  Service/
    - CoffeeService.java
    - CoffeeServiceImpl.java
 
