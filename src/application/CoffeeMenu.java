@@ -4,6 +4,9 @@ import domain.model.Coffee;
 
 import java.util.List;
 
+/**
+ * Represents the coffee menu containing a list of available coffee types with their names and prices.
+ */
 public class CoffeeMenu {
     private List<Coffee> coffees;
 

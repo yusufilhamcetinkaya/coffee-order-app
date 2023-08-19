@@ -6,7 +6,9 @@ import java.util.Scanner;
 import service.CoffeeService;
 import service.CoffeeServiceImpl;
 
-
+/**
+ * Entry point of the coffee order application.
+ */
 public class CoffeeApp {
     public static void main(String[] args) {
         CoffeeService coffeeService = new CoffeeServiceImpl(Arrays.asList(CoffeeType.values()));

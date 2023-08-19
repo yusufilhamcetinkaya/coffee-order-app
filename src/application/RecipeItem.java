@@ -1,5 +1,8 @@
 package application;
 
+/**
+ * Represents an ingredient and its quantity in a recipe.
+ */
 public class RecipeItem {
     private String ingredient;
     private int amount;

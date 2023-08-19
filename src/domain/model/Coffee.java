@@ -1,5 +1,8 @@
 package domain.model;
 
+/**
+ * Represents a coffee order with its type and associated recipe.
+ */
 public class Coffee {
     private String name;
     private int price;

@@ -1,5 +1,8 @@
 package application;
 
+/*
+ * Enum representing different types of coffee along with their display names and prices.
+ */
 public enum CoffeeType {
     ESPRESSO("Espresso", 20),
     DOUBLE_ESPRESSO("Double Espresso", 29),

@@ -1,5 +1,8 @@
 package application;
 
+/**
+ * Represents a coffee order, containing the selected coffee type.
+ */
 public class Order {
     private CoffeeType coffeeType;
 

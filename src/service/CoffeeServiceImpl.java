@@ -13,6 +13,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * Implements the CoffeeService interface, providing methods for preparing coffee and getting the coffee menu.
+ */
 public class CoffeeServiceImpl implements CoffeeService {
     private Map<CoffeeType, Recipe> recipes;
     private List<CoffeeType> coffeeTypes;
