@@ -58,7 +58,6 @@ In this structure:
 ## Technologies Used
 
 - Java 8+
-- JUnit and Mockito for unit testing
 - Git for version control
 
 ## Clean Code and Architecture
